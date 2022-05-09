@@ -20,7 +20,7 @@ jobs:
     - name: repo-sync
       uses: repo-sync/github-sync@v2
       with:
-        source_repo: "https://github.com/fichenx/flede"
+        source_repo: "https://github.com/coolsnowwolf/lede"
         source_branch: "main"
         destination_branch: "master"
         github_token: ${{ secrets.PAT }}
